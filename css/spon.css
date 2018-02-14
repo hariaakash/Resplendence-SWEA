@@ -1,0 +1,27 @@
+
+div.sponsorfooter {
+
+  width: 100%;
+  height: 200px;
+  background: #eee url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoMKPhFAC1cx3gwQcz688mxGPp9KA_I-UVWlSk5yvRPmBCtiKW");
+  -webkit-animation: scrollBg 20s linear infinite;
+  -ms-animation: scrollBg 20s linear infinite;
+  animation: scrollBg 20s linear infinite;
+  background-size: cover;
+}
+@-webkit-keyframes scrollBg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2526px 0;
+  }
+}
+@keyframes scrollBg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2526px 0;
+  }
+}
