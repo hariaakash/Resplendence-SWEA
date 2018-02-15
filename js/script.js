@@ -16,7 +16,7 @@
             }), n("#csi-countdown").length) {
             var a = n("#csi-countdown").data("date");
             n("#csi-countdown").countdown(a, function(o) {
-                n(this).html(o.strftime('<span class="csi-days">%D <i> Days </i></span> <span class="csi-hr">%H <i> Hour </i></span> <span class="csi-min">%M <i> Minu </i></span> <span class="csi-sec">%S <i> Seco </i></span>'))
+                n(this).html(o.strftime('<span class="csi-days">%D <i> Days </i></span> <span class="csi-hr">%H <i> Hrs </i></span> <span class="csi-min">%M <i> Mins </i></span></span>'))
             })
         }
     })
